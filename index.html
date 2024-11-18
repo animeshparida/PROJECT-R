@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Classification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetic Retinopathy Image Classification</h1>
+        <p>Upload an iris image to classify its diabetic retinopathy severity.</p>
+        
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="uploadImage()">Classify Image</button>
+
+        <div id="result"></div>
+
+        <div id="imagePreview" class="image-preview">
+            <h2>Uploaded Image</h2>
+            <img id="uploadedImage" src="" alt="Image preview" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
